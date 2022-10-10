@@ -1,0 +1,17 @@
+{
+  "name": "recommend-playground-generator",
+  "version": "1.0.0",
+  "description": "Generator for building custom Recommend demos",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --port 3000",
+    "build": "parcel build index.html"
+  },
+  "author": "Kevin Xu",
+  "license": "ISC",
+  "dependencies": {
+    "codesandbox": "^2.2.3",
+    "lz-string": "^1.4.4",
+    "parcel-bundler": "^1.12.5"
+  }
+}
